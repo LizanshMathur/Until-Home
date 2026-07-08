@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Until You're Home ❤️</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<!-- ================= LOADER ================= -->
+
+<div id="loader">
+
+    <img src="stickers/cat-wave.png" class="loader-cat">
+
+    <h1>
+
+        Until You're Home ❤️
+
+    </h1>
+
+    <p>
+
+        Loading Love...
+
+    </p>
+
+    <div class="loader-bar">
+
+        <div class="loader-progress"></div>
+
+    </div>
+
+</div>
+    
+    <!-- Floating Background -->
+    <div id="floating-hearts"></div>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+
+        <div class="container">
+
+            <a class="navbar-brand logo" href="#">
+                ❤️ Until You're Home
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Memories</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Countdown</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero -->
+
+   <!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <!-- Moon -->
+    <img src="stickers/moon.png" class="moon">
+
+    <!-- Clouds -->
+    <img src="stickers/cloud.png" class="cloud cloud1">
+    <img src="stickers/cloud.png" class="cloud cloud2">
+
+    <!-- Stars -->
+    <div id="stars"></div>
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 text-center text-lg-start">
+
+                <span class="hero-tag">
+                    ❤️ Waiting for July 15 ❤️
+                </span>
+
+                <h1>
+                    Hi Beautiful ❤️
+                </h1>
+
+                <p class="subtitle">
+
+                    You may be miles away,
+
+                    <br>
+
+                    but you're always in my heart.
+
+                </p>
+
+                <h3 id="typing"></h3>
+
+                <div class="mt-4">
+
+                    <button class="love-btn">
+
+                        💌 Open My Heart
+
+                    </button>
+
+                    <button class="journey-btn">
+
+                        ❤️ Start Journey
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 text-center">
+
+                <img src="stickers/cat-wave.png" class="hero-cat">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+
+        ⌄
+
+        <br>
+
+        Scroll Down
+
+    </div>
+
+</section>
+
+<!-- ================= LOVE LETTER ================= -->
+<!-- ================= LOVE LETTER ================= -->
+
+<section id="letter-section" class="letter-section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            💌 Someone Left You A Letter
+        </h2>
+
+        <p class="section-subtitle">
+            Open it when you're ready ❤️
+        </p>
+
+        <div class="envelope-container">
+<div class="speech-wrapper">
+            <img src="stickers/cat-love.png" class="peek-cat" id="peekCat">
+
+            <div class="speech-bubble" id="speechBubble">
+                Meow... ❤️
+                <br>
+                Someone misses you.
+            </div>
+</div>
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-flap" id="flap"></div>
+
+                <div class="envelope-front"></div>
+
+            </div>
+
+        </div>
+
+        <div class="letter-card" id="letterCard">
+
+            <img src="stickers/cat-love.png" class="reading-cat">
+
+            <div class="paper">
+
+                <h3>My Beautiful ❤️</h3>
+
+                <p id="letterText"></p>
+
+            </div>
+
+            <button class="next-btn">
+
+                ❤️ Turn The Page →
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= COUNTDOWN ================= -->
+
+<section id="countdown" class="countdown-section">
+
+    <div class="container text-center">
+
+        <h2 class="section-title">
+            🌙 Waiting For You
+        </h2>
+
+        <p class="section-subtitle">
+
+            Every second brings you closer to home ❤️
+
+        </p>
+
+        <img src="stickers/cat-sleep.png" class="sleep-cat">
+
+        <div class="countdown-box">
+
+            <div class="time-card">
+
+                <h1 id="days">00</h1>
+
+                <span>Days</span>
+
+            </div>
+
+            <div class="time-card">
+
+                <h1 id="hours">00</h1>
+
+                <span>Hours</span>
+
+            </div>
+
+            <div class="time-card">
+
+                <h1 id="minutes">00</h1>
+
+                <span>Minutes</span>
+
+            </div>
+
+            <div class="time-card">
+
+                <h1 id="seconds">00</h1>
+
+                <span>Seconds</span>
+
+            </div>
+
+        </div>
+
+        <h3 id="countdownMessage">
+
+            Counting every heartbeat... ❤️
+
+        </h3>
+<div class="promise-card">
+
+    <h4>💖 A Promise</h4>
+
+    <p>
+        No matter how many miles are between us today,
+        my heart is always right beside yours.
+    </p>
+
+</div>
+    </div>
+
+</section>
+
+<!-- ================= OUR STORY ================= -->
+
+<section id="memories" class="memory-section">
+
+<div class="container">
+
+<h2 class="section-title text-center">
+
+📸 Our Story ❤️
+
+</h2>
+
+<p class="section-subtitle text-center">
+
+Every picture tells a story.
+
+</p>
+
+<div class="row g-5 mt-4">
+
+<div class="col-lg-4">
+
+<div class="memory-card">
+
+<img src="images/memory1.jpg">
+
+<div class="memory-overlay">
+
+<h4>Our First Adventure ❤️</h4>
+
+<p>
+
+One smile...
+
+and I already knew
+you were special.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="memory-card">
+
+<img src="images/memory2.jpg">
+
+<div class="memory-overlay">
+
+<h4>My Favourite Smile 😊</h4>
+
+<p>
+
+This picture
+still makes me smile.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="memory-card">
+
+<img src="images/memory3.jpg">
+
+<div class="memory-overlay">
+
+<h4>Forever Us ❤️</h4>
+
+<p>
+
+Every memory
+is my favourite memory.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= REASONS ================= -->
+
+<section class="reason-section" id="reasons">
+
+<div class="container text-center">
+
+<h2 class="section-title">
+
+❤️ 100 Reasons I Love You ❤️
+
+</h2>
+
+<p class="section-subtitle">
+
+Every click is another reason.
+
+</p>
+
+<img src="stickers/cat-heart.png" class="reason-cat">
+
+<div class="reason-card">
+
+<p id="reasonText">
+
+Click the button ❤️
+
+</p>
+
+</div>
+
+<button id="reasonButton" class="love-btn">
+
+❤️ Show Me Another
+
+</button>
+
+</div>
+
+</section>
+
+
+<!-- ================= FINAL SECTION ================= -->
+
+<section class="final-section" id="final">
+
+    <div class="container text-center">
+
+        <img src="stickers/cat-hug.png" class="final-cat">
+
+        <h2 class="final-title">
+
+            Welcome Home ❤️
+
+        </h2>
+
+        <h4 class="final-subtitle">
+
+            Even when we're apart...
+
+            <br><br>
+
+            You are always my favourite place.
+
+        </h4>
+
+        <div class="love-letter-box">
+
+            <p>
+
+                Thank you for coming into my life.
+
+                <br><br>
+
+                Thank you for making ordinary days feel magical.
+
+                <br><br>
+
+                Thank you for loving me.
+
+                <br><br>
+
+                I promise to keep choosing you...
+
+                every single day.
+
+                ❤️
+
+            </p>
+
+        </div>
+
+        <button id="surpriseBtn" class="love-btn">
+
+            🎁 One Last Surprise
+
+        </button>
+
+    </div>
+
+</section>
+
+<div id="lightbox">
+
+<span id="close">
+
+✕
+
+</span>
+
+<img id="lightboxImage">
+
+</div>
+
+
+<div id="catBubble">
+
+    Meow ❤️
+
+</div>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
